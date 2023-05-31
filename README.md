@@ -1,7 +1,8 @@
 # Portfólio 
 Olá, Bem vindo ao meu projeto de portfólio
 
-![image](https://prnt.sc/Lq3BvABs8u1m)
+![portfolioffoto](https://github.com/GiovaneBoaro/projeto-alura/assets/96142962/0a3ef592-8e14-45fc-8db5-e454073bba1a)
+
 
 ## Ferramentas utilizadas:
 

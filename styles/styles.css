@@ -233,8 +233,7 @@ body {
     .cabecalho__menu {
         justify-content: center;
     }
-    
-    
+
     .apresentacao {
         flex-direction: column-reverse;
         padding: 5.9% 5%;
@@ -269,6 +268,7 @@ body {
         flex-direction: column;
         
     }
+}
+
 
     
-}

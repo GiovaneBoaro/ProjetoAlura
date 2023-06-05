@@ -8,15 +8,25 @@
     <title> Giovane Boaro - Sobre mim </title>
 </head>
 <body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
+    <header class="cabecalho" id="cabecalho">
+        <button  onclick="toggleSideBar()" class="btn__icon__header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+        </button>
+        <nav class="cabecalho__menu" id="cabecalho__menu">
+            <button onclick="toggleSideBar()" class="btn__icon__header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+            </button>
             <a class="cabecalho__menu__link" href="index.html"> Home </a>
             <a class="cabecalho__menu__link" href="about.html"> Sobre mim </a>
             <a class="cabecalho__menu__link" href="curriculum.html"> Currículo</a>
         </nav>
     </header>   
 
-   <main class="apresentacao">
+   <main tabindex="0" onclick="closeSideBar()" class="apresentacao" id="apresentacao">
         <section class="apresentacao__conteudo">
             <h1 class="apresentacao__conteudo__titulo"> Sobre mim </h1>
             <p class="apresentacao__conteudo__texto">Olá! Me chamo Giovane Boaro, tenho 20 anos, sou de Gravataí-RS e atuo como desenvolvedor Web. Em abril de 2023, finalizei o curso técnico em informática para internet na instituição QI Faculdade & Escola Técnica e faço parte do programa Nova Geração, promovido pelo Instituto Caldeira.</p>
@@ -29,4 +39,5 @@
         <p>Desenvolvido por Giovane Boaro.</p>
     </footer>                      
 </body>
+<script src="script.js"></script>
 </html>

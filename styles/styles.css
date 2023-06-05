@@ -30,7 +30,16 @@ body {
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 80px; 
+    z-index: 2;
+}
+
+.btn__icon__header {
+    background-color: transparent;
+    border: none;
+    color: var(--secundary-color);
+    cursor: pointer;
+    display: none; 
 }
 
 .cabecalho__menu__link  {
@@ -225,14 +234,34 @@ body {
 
 /* MEDIA */
 
+@keyframes showSideBar {
+    from {margin-left: -100vw;}
+    top {margin-left: -10vw;}
+}
+
 @media (max-width: 1200px) {
+
+    .btn__icon__header {
+        display: block;
+    }
+
+    .cabecalho__menu {
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        background-color: var(--background-button);
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+        align-items: center;
+    }
+
     .cabecalho {
         padding: 10%;
     }
 
-    .cabecalho__menu {
-        justify-content: center;
-    }
 
     .apresentacao {
         flex-direction: column-reverse;

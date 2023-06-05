@@ -14,6 +14,8 @@ Olá, Bem vindo ao meu projeto de portfólio
 
 * Flex-box
 
+* JavaScript 
+
 ## Feito por:
 
 ### Giovane Boaro
